@@ -1,0 +1,86 @@
+/*
+Selector as and eleement- WIll update the style of all the label selector.*/
+
+
+h2{
+	text-align: left;
+
+}
+
+
+
+body{background-image: url(https://previews.123rf.com/images/hakkiarslan/hakkiarslan1601/hakkiarslan160100009/50907760-abstract-grey-white-geometric-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-blend-mode: 10%;
+	  font-family: 'Source Sans Pro', sans-serif;
+	  font-size: 15px;	
+	}
+
+li{font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}	
+
+/* Education and Experience*/
+/* Class selectors allow you to change multiple elements that are specifically coded*/
+/* descendent selectors allow you to select certain elements with in a structure*/
+
+.dates{ float: right;
+	display: inline;
+	font-size: 20px;
+
+}
+
+.work-dates{ float: left;
+	/*display: inline;*/
+
+}
+
+.schools{text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.majors{ /*display: inline;*/
+	font-size: 15px;
+
+}
+
+h4{color: #16332E; 
+	text-align: left;
+	}
+
+
+.company{display: inline;
+		font-size: 20px;
+		font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.positions{display: inline;
+		font-size: 15px;
+		font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.lead{border-color: :#000000;
+	border-width: 2px;
+	border-style: solid;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 50%;
+
+}
+/* ID tages allow you to single out an element*/
+
+#hobbies{text-align: right;
+	font-size: 10px
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
