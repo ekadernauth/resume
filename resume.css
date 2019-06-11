@@ -7,6 +7,18 @@ h1{
 	text-align: center;
 }
 
+h2{font-family: 'lobster', sans-serif;
+	  font-size: 1.5em;	
+
+}
+
+h3{font-family: 'Roboto', sans-serif;
+font-size: 1.0em;	
+font-weight: bold;
+color:#054456;
+
+}
+
 hr{ overflow: visible; /* For IE */
     padding: 0;
     border: none;
@@ -16,10 +28,10 @@ hr{ overflow: visible; /* For IE */
 
 }
 
- hr:after{content: "§";
+ hr:after{content: "";
     display: inline-block;
     position: relative;
-    top: -0.7em;
+    top: -0.8em;
     font-size: 1.5em;
     padding: 0 0.25em;
     background: #e6f2f2;
@@ -28,14 +40,18 @@ hr{ overflow: visible; /* For IE */
 
 body{
 	  font-family: 'Roboto', sans-serif;
-	  font-size: 15px;	
-	  background-color: #f2f7f7;
+	  font-size: 1.0em;	
+	  /*background-color: #f2f7f7;*/
+	  background-color: #ffffff;
 	}
 
-li{font-size: 15px;
+/*li{font-size: 1.0em;
 	font-family: 'Roboto', sans-serif;
-}	
+}	*/
 
+i{
+	color: #239a9a;
+}
 /* Education and Experience*/
 /* Class selectors allow you to change multiple elements that are specifically coded*/
 /* descendent selectors allow you to select certain elements with in a structure*/
@@ -43,13 +59,22 @@ li{font-size: 15px;
 .jumbotron{ background-color: #e6f2f2;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-top: 25px;
+	margin-top: 20px;
 
 }
 
-.dates{ float: right;
+.contacts{ align-content: center;
+
+}
+
+.col-3{
+	background-color: #f4f8f9;
+	padding-top: 20px
+}
+
+/*.dates{ float: right;
 	display: inline;
-	font-size: 20px;
+	font-size: 20px;*/
 
 }
 
@@ -59,22 +84,31 @@ li{font-size: 15px;
 }
 
 .schools{text-align: left;
-	font-size: 15px;
-	line-height: 20px;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif
+	line-height: 1.5rem;
 	font-weight: bold;
 
 }
 
+.majors{text-align: left;
+	font-size: .7em;
+	font-family: 'Roboto', sans-serif
+	line-height: 1.5rem;
+	font-weight: bold;
+
 }
 
-h4{color: #16332E; 
+
+/*h4{color: #16332E; 
 	text-align: left;
-	}
+	}*/
 
 
 .company{display: inline;
-		font-size: 20px;
+		font-size: 1.5em;
 		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
 
 }
 
@@ -84,11 +118,11 @@ h4{color: #16332E;
 }
 
 .lead{
-	font-size: 15px;
+	font-size: 1em;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	line-height: 1.25rem;
-	padding-top: 1.0rem
+	line-height: .5em;
+	padding-bottom: .1em;
 
 }
 /* ID tages allow you to single out an element*/
